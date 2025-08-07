@@ -26,6 +26,7 @@ while True:
 data = np.asarray(data)
 print(data)
 print(data.shape)
-np.save('Tanu.npy', data)
+np.save('Tanu.npy', data)  #here we will enter the name of the file we want to create to store data. 
 capture.release()
 cv2.destroyAllWindows()
+
